@@ -9,7 +9,7 @@
     "prestart": "npm run swagger && npm run routes",
     "routes": "tsoa routes",
     "dev": "ts-node ./src/index.ts",
-    "start": "ts-node ./src/index.ts",
+    "start": "node dist/index.js",
     "test": "jest --config=./jest.config.js",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx .",
